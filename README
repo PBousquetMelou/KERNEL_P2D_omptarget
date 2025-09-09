@@ -1,0 +1,14 @@
+
+CRIANN, 8 Sept 2025
+
+2D Poisson (Jacobi solver) kernel code, FORTRAN + OpenMP target
+
+Adapt "job_GPU.sl" to your system for compiling and running the code
+("Makefile_amdflang" is provided)
+
+CRIANM HPC systems performance results
+--------------------------------------
+M210, amdflang-classic 17.0.0: 				44.8 sec
+M210, MD AFAR drop #7.1 08/25/25 flang version 22.0.0:  34.8 sec
+M210, Cray ftn 17.0.1: 					19.8 sec
+A100, nvfortran 23.11-0: 				13.8 sec
