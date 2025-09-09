@@ -4,7 +4,6 @@ CRIANN, 8 Sept 2025
 2D Poisson (Jacobi solver) kernel code, FORTRAN + OpenMP target
 
 Adapt "job_GPU.sl" to your system for compiling and running the code
-("Makefile_amdflang" is provided)
 
 CRIANM HPC systems performance results
 --------------------------------------
